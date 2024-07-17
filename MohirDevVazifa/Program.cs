@@ -37,7 +37,7 @@ for (int i = 0; i < massiv.Length; i++)
 }
 Console.WriteLine($"{min} minimal qiytmat\n{max} maxsimal qiymat");*/
 
-Console.Write("Faktarial Hisoblash uchun son kiriting: ");
+Console.Write("Faktarial hisoblash uchun son kiriting: ");
 int faktarial = Convert.ToInt32(Console.ReadLine());
 int a = 1;
 
