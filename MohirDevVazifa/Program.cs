@@ -9,7 +9,7 @@ while (i < toqSon)
     i += 2;
 }
 
-Console.WriteLine($"{toqSon} gacha bo'lgan toqson yig'indisi: {hisob}");*/
+Console.WriteLine($"{toqSon} gacha bo'lgan toqson yig'indisi: {hisob}");
 
 Console.Write("Massiv Sonini Kiriting (3-6): ");
 int massivSonni = Convert.ToInt32(Console.ReadLine());
@@ -35,4 +35,14 @@ for (int i = 0; i < massiv.Length; i++)
         max = massiv[i];
     }
 }
-Console.WriteLine($"{min} minimal qiytmat\n{max} maxsimal qiymat");
+Console.WriteLine($"{min} minimal qiytmat\n{max} maxsimal qiymat");*/
+
+Console.Write("Faktarial Hisoblash uchun son kiriting: ");
+int faktarial = Convert.ToInt32(Console.ReadLine());
+int a = 1;
+
+for  (int i = 1; i <= faktarial; i++)
+{
+    a *= i;
+}
+Console.WriteLine(a);
